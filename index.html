@@ -3,56 +3,62 @@
 <head>
 	<meta charset="utf-8">
 	<title>A Web Page</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<header>
 		<nav>
-			<img src="http://placehold.it/30x30"><p>Logo</p>			
-			<ul>
-				<li><a href="...">home</a></li>
-				<li><a href="...">contact</a></li>
-			</ul>
+			<div class="contenedor">
+				<img class="logo" src="image/header-logo.png">
+				<ul>
+					<li><a href="...">home</a></li>
+					<li><a href="...">contact</a></li>
+				</ul>
+			</div>
 		</nav>
 	</header>
 	
-	<section>
-		<img src="http://placehold.it/1024x480">
+	<section id="banner">
+		<img id="indexbanner" src="image/indexbanner-bg3.jpg">
 	</section>
 
 	<section>
-		<div>
-			<input type="text" placeholder="Enter your domain name and hit enter">
-			<a href="...">Search</a>
-			<ul>
-				<li>
+		<div id="servicios-productos">
+			<input class="busqueda" type="text" placeholder="Enter your domain name and hit enter">
+			<a class="busqueda" href="...">Search</a>
+			<ul class="lista">
+				<li class="elemento">
 					<article>
-						<img src="http://placehold.it/50x50">
-						<h4>Some text</h4>
-						<p>A <b>paragraph</b> of text with an</p>
+						<img src="icons/wid1.png">
+						<h4>Speed Servers</h4>
+						<p>A <b>paragraph</b> of text with a</p>
 						<p>A <i>second</i> <u>row</u> of <del>text</del> with a</p>
 					</article>
 				</li>
-				<li>
+				<li class="elemento">
 					<article>
-						<img src="http://placehold.it/50x50">
-						<h4>Some text</h4>
-						<p>A <b>paragraph</b> of text with an</p>
+						<img src="icons/wid2.png">
+						<h4>Hostro Services</h4>
+						<p>A <b>paragraph</b> of text with a</p>
 						<p>A <i>second</i> <u>row</u> of <del>text</del> with a</p>
 					</article>
 				</li>
-				<li>
+				<li class="elemento">
 					<article>
-						<img src="http://placehold.it/50x50">
-						<h4>Some text</h4>
-						<p>A <b>paragraph</b> of text with an</p>
+						<img src="icons/wid3.png">
+						<h4>Live Support</h4>
+						<p>A <b>paragraph</b> of text with a</p>
 						<p>A <i>second</i> <u>row</u> of <del>text</del> with a</p>
 					</article>
 				</li>
-				<li>
+				<li class="elemento">
 					<article>
-						<img src="http://placehold.it/50x50">
-						<h4>Some text</h4>
-						<p>A <b>paragraph</b> of text with an</p>
+						<img src="icons/wid4.png">
+						<h4>Get Domain Name</h4>
+						<p>A <b>paragraph</b> of text with a</p>
 						<p>A <i>second</i> <u>row</u> of <del>text</del> with a</p>
 					</article>
 				</li>
@@ -92,7 +98,7 @@
 					</article>
 				</li>
 			</ul>
-			<img src="http://placehold.it/200x400">
+			<img src="image/iphone2.png">
 			<ul>
 				<li>
 					<article>
@@ -120,57 +126,67 @@
 	</section>
 
 	<section>
-		<article>
-			<h3>A Subtitle</h3>
-			<p>Some text Some Text Some Text</p>
-		</article>
+		<div class="imagen-precios">
+			<article>
+				<h3>Pricing Tables</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			</article>
+		</div>
 	</section>
 
-	<section>
+	<section id="precios">
 		<div>
 			<ul>
 				<li>
 					<article>
-						<h4>Some text $95</h4>
+						<h1>smal package</h1>
+						<p>$15</p>
+						<p>/month</p>
 						<!--duda de como crear -->
-						<p>Some text 1</p>
-						<p>Some text 1</p>
-						<p>Some text 1</p>
-						<p>Some text 1</p>
-						<a href="...">Button</a>
+						<p>Hard drive. GB</p><p>2</p>
+						<p>Transfer. GB</p><p>1</p>
+						<p>Data bases</p><p>1</p>
+						<p>SDashboards</p><p>1</p>
+						<a href="...">select plan</a>
 					</article>
 				</li>
 				<li>
 					<article>
-						<h4>Some text $95</h4>
+						<h4>normal package</h4>
+						<p>$45</p>
+						<p>/month</p>
 						<!--duda de como crear -->
-						<p>Some text 1</p>
-						<p>Some text 1</p>
-						<p>Some text 1</p>
-						<p>Some text 1</p>
-						<a href="...">Button</a>
+						<p>Hard drive. GB</p><p>5</p>
+						<p>Transfer. GB</p><p>2</p>
+						<p>Data bases</p><p>2</p>
+						<p>SDashboards</p><p>2</p>
+						<a href="...">select plan</a>
 					</article>
 				</li>
 				<li>
 					<article>
-						<h4>Some text $95</h4>
+						<h4>big package</h4>
+						<p>$95</p>
+						<p>/month</p>
 						<!--duda de como crear -->
-						<p>Some text 1</p>
-						<p>Some text 1</p>
-						<p>Some text 1</p>
-						<p>Some text 1</p>
-						<a href="...">Button</a>
+						<p>Hard drive. GB</p><p>12</p>
+						<p>Transfer. GB</p><p>5</p>
+						<p>Data bases</p><p>5</p>
+						<p>SDashboards</p><p>5</p>
+						<a href="...">select plan</a>
 					</article>
 				</li>
 				<li>
 					<article>
-						<h4>Some text $95</h4>
+						<h4>best package</h4>
+						<p>$115</p>
+						<p>/month</p>
 						<!--duda de como crear -->
-						<p>Some text 1</p>
-						<p>Some text 1</p>
-						<p>Some text 1</p>
-						<p>Some text 1</p>
-						<a href="...">Button</a>
+						<p>Hard drive. GB</p><p>20</p>
+						<p>Transfer. GB</p><p>10</p>
+						<p>Data bases</p><p>10</p>
+						<p>SDashboards</p><p>10</p>
+						<a href="...">select plan</a>
 					</article>
 				</li>
 			</ul>
@@ -202,26 +218,27 @@
 	</section>
 
 	<section>
-		<div>
-			<p>Hosting use 500.000 happy customers. Want to see services?</p>
+		<div class="hosting">
+			<p>Hosting use</p><h3>500.000</h3><p>happy customers. Want to see services?</p>
 		</div>
 	</section>
 
-	<footer>
-		<P>Some text</P>
+	<footer id="footer">
 		<nav>
-			<ul>
-				<li>
-					<a href="...">home</a>
-				</li>
-				<li>
-					<a href="...">contact</a>
-				</li>
-				<li>
-					<img src="http://placehold.it/20x20">
-				</li>
-			</ul>
+			<div>
+				<p>©2015 Coderland. All right reserved.</p>
+			
+				<ul>
+					<li>
+						<a href="...">home</a>
+					</li>
+					<li>
+						<a href="...">contact</a>
+					</li>
+				</ul>
+			</div>
 		</nav>
 	</footer>
+
 </body>
 </html>
